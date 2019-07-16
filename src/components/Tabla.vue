@@ -51,7 +51,7 @@
                 }else if(this.$route.name == 'Albums'){
                     this.$router.push(process.env.BASE_URL + 'albums/' + row.albumid);
                 }else if(this.$route.name == 'Individual Album'){
-                    this.$router.push(process.env.BASE_URL + 'albums/' + row.albumid + '/tracks');
+                    this.$router.push(process.env.BASE_URL + row.albumid + '/tracks');
                 }else if(this.$route.name == 'Tracks'){
                     this.$router.push(process.env.BASE_URL + 'tracks/' + row.trackid);
                 }else if(this.$route.name == 'Tracks of the album'){
