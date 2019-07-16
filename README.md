@@ -1,29 +1,13 @@
-# frontend
+# Music App
+This website has been created using Symfony 4 + Vuejs. https://epic-chandrasekhar-d26c49.netlify.com/
 
-## Project setup
-```
-npm install
-```
+## How to install it locally
+- First, install all packages:
+> npm install
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Finally, run the server:
+> npm run serve
 
-### Compiles and minifies for production
-```
-npm run build
-```
+:tada: You have installed locally your new music website!
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Note: If you want to use your own database, download the backend of the app here: https://github.com/golly10/Music-App-Backend 
