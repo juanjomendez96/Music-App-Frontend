@@ -71,7 +71,7 @@
         methods: {
 
             getToken(){
-                axios.post('http://localhost:8000/auth/login_check', {
+                axios.post('https://music-app-backend.herokuapp.com/auth/login_check', {
                     _username: this.input,
                     _password: this.password,
                     headers: {

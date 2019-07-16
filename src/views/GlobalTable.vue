@@ -52,7 +52,7 @@ export default {
   methods: {
     fetchData() {
       axios
-              .get('http://localhost:8000/api' + this.$route.path,{
+              .get('https://music-app-backend.herokuapp.com/api' + this.$route.path,{
                 headers:{
                   'Authorization': 'Bearer ' + localStorage.getItem('token')
                 }
@@ -64,7 +64,7 @@ export default {
     },
     fetchDataIndividual() {
       axios
-              .get('http://localhost:8000/api' + this.$route.path,{
+              .get('https://music-app-backend.herokuapp.com/api' + this.$route.path,{
                 headers:{
                   'Authorization': 'Bearer ' + localStorage.getItem('token')
                 }

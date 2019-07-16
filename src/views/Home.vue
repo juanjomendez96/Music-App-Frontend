@@ -6,7 +6,7 @@
                          trigger="click"
             >
                 <span class="el-dropdown-link">
-                {{this.user.toUpperCase()}} <i class="el-icon-arrow-down el-icon--right"></i>
+                {{this.user}} <i class="el-icon-arrow-down el-icon--right"></i>
                 </span>
                 <el-dropdown-menu slot="dropdown">
                     <el-dropdown-item>
@@ -15,7 +15,7 @@
                 </el-dropdown-menu>
             </el-dropdown>
         </div>
-        <h1>Welcome {{ this.user.toUpperCase() }}!</h1>
+        <h1>Welcome {{ this.user }}!</h1>
 
 
         <el-row :gutter="20" style="margin-bottom: 3%">

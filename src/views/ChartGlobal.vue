@@ -104,7 +104,7 @@
                 }
             },
             fetchData(){
-                axios.get('http://localhost:8000/api/invoice', {
+                axios.get('https://music-app-backend.herokuapp.com/api/invoice', {
                     headers:{
                         'Authorization': 'Bearer ' + localStorage.getItem('token')
                     }

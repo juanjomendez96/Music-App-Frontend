@@ -80,7 +80,7 @@
         methods: {
 
             setUser(){
-                axios.post('http://localhost:8000/auth/register', {
+                axios.post('https://music-app-backend.herokuapp.com/auth/register', {
                     username: this.username,
                     password: this.password,
                     email: this.email,
