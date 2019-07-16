@@ -11,3 +11,4 @@ This website has been created using Symfony 4 + Vuejs. https://epic-chandrasekha
 :tada: You have installed locally your new music website!
 
 #### Note: If you want to use your own database, download the backend of the app here: https://github.com/golly10/Music-App-Backend 
+#### Once you have changed the database, please, change the axios urls get and post from all the views. 
